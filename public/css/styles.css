@@ -592,7 +592,6 @@ pre code {
 @media (min-width: 768px) {
   .container-md, .container-sm, .container {
     max-width: 720px;
-    max-height: 600px;
   }
 }
 @media (min-width: 992px) {
@@ -4154,7 +4153,7 @@ input[type=button].btn-block {
     display: none;
   }
 }
-/* @media (max-width: 991.98px) {
+@media (max-width: 991.98px) {
   .navbar-expand-lg > .container,
 .navbar-expand-lg > .container-fluid,
 .navbar-expand-lg > .container-sm,
@@ -4164,7 +4163,7 @@ input[type=button].btn-block {
     padding-right: 0;
     padding-left: 0;
   }
-} */
+}
 @media (min-width: 992px) {
   .navbar-expand-lg {
     flex-flow: row nowrap;
