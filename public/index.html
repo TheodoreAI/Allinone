@@ -20,6 +20,7 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+
     <body id="page-top">
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
@@ -28,13 +29,14 @@
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
                     data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
                     aria-label="Toggle navigation">
-                
+
                     <i class="fas fa-bars ml-1"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav text-uppercase ml-auto">
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><b>COVID-19</b></a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services"><b>COVID-19</b></a>
+                        </li>
+                        <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about"><b>About</b></a></li> -->
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#team"><b>Team</b></a></li>
 
                     </ul>
@@ -44,8 +46,10 @@
         <!-- Masthead-->
         <header class="masthead">
             <div class="container">
-                <div class="masthead-subheading">All In One Tattoo X Barbershop!</div>
-                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Book Now</a>
+                <div class="masthead-subheading" style="font-family: cursive;"><b>All In One Tattoo and Barber
+                        studio</b></div>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#team">Book Haircut</a>
+                <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#teamTattoo">Book Tattoo</a>
             </div>
         </header>
         <!-- Services-->
@@ -62,14 +66,14 @@
                             <i class="fas fa-lungs-virus"></i>
                         </span>
                         <h4 class="my-3">Feeling sick?</h4>
-                        <p class="text-muted">Please stay home for the safety of our staff and yourself.</p>
+                        <p class="covid-text">Please stay home for the safety of our staff and yourself.</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
                             <i class="fas fa-head-side-mask"></i>
                         </span>
                         <h4 class="my-3">No mask?</h4>
-                        <p class="text-muted">No service!</p>
+                        <p class="covid-text">No service!</p>
                     </div>
                     <div class="col-md-4">
                         <span class="fa-stack fa-4x">
@@ -77,13 +81,13 @@
                             <i class="fas fa-people-arrows"></i>
                         </span>
                         <h4 class="my-3">No guests</h4>
-                        <p class="text-muted">Please social distance - 6 feet apart.</p>
+                        <p class="covid-text">Please social distance - 6 feet apart.</p>
                     </div>
                 </div>
             </div>
         </section>
         <!-- About-->
-        <section class="page-section" id="about">
+        <!-- <section class="page-section" id="about">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase">About</h2>
@@ -163,74 +167,84 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section> -->
         <!-- Team-->
         <section class="page-section bg-light" id="team">
             <div class="container">
                 <div class="text-center">
                     <h2 class="section-heading text-uppercase" style="color: black">Meet The Team</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h3 class="team-subheading">Barbers:</h3>
                 </div>
+                <br>
                 <div class="col-lg-4">
                     <div class="row">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/img/team/2.jpg" alt="" />
                             <h4>Jorge Pinon</h4>
                             <p class="text-muted">Lead Barber</p>
-                            <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/jorge.crib.cutz?igshid=svwubfz7b7co"><i class="fab fa-instagram-square"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="https://m.facebook.com/jorge.pinon.965"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2"
+                                href="https://instagram.com/jorge.crib.cutz?igshid=svwubfz7b7co"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://m.facebook.com/jorge.pinon.965"><i
+                                    class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
-
                         <div class="col">
-                            <a class="btn btn-primary" href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
+                            <a class="btn btn-primary"
+                                href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
                                 Jorge</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                            <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex
+                                libero, vehicula ut
                                 suscipit ac, congue eget.
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
                                 suscipit ac, congue eget.
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
                                 suscipit ac, congue eget.
                             </p>
-                            
-                        </div>
-                    </div>
 
-                    <div class="row">
-                        <div class="team-member">
-                            <img class="mx-auto rounded-circle" src="/img/team/2.jpg" alt="" />
-                            <h4>Larry Parker</h4>
-                            <p class="text-muted">Lead Marketer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-instagram-square"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
-                        </div>
-                        <div class="col">
-                            <a class="btn btn-primary" href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
-                                Y</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
-                                suscipit ac, congue eget.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
-                                suscipit ac, congue eget.
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
-                                suscipit ac, congue eget.
-                            </p>
-                            
                         </div>
                     </div>
                     <div class="row">
                         <div class="team-member">
                             <img class="mx-auto rounded-circle" src="/img/team/2.jpg" alt="" />
-                            <h4>Diana Petersen</h4>
-                            <p class="text-muted">Lead Developer</p>
-                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-instagram-square"></i></a>
+                            <h4>Paco Pulido</h4>
+                            <p class="text-muted">Barber</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i
+                                    class="fab fa-instagram-square"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
                             <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
                         </div>
                         <div class="col">
-                            <a class="btn btn-primary" href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
-                                Z</a>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                            <a class="btn btn-primary"
+                                href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
+                                Paco</a>
+                            <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex
+                                libero, vehicula ut
+                                suscipit ac, congue eget.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                                suscipit ac, congue eget.
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                                suscipit ac, congue eget.
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="team-member">
+                            <img class="mx-auto rounded-circle" src="/img/team/2.jpg" alt="" />
+                            <h4 class="paragraphs">Rudy Gonzalez</h4>
+                            <p class="text-muted">Barber</p>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i
+                                    class="fab fa-instagram-square"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                        <div class="col">
+                            <a class="btn btn-primary"
+                                href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
+                                Rudy</a>
+                            <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex
+                                libero, vehicula ut
                                 suscipit ac, congue eget.
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
                                 suscipit ac, congue
@@ -239,14 +253,67 @@
                                 suscipit ac, congue
                                 eget.
                             </p>
-                            
                         </div>
                     </div>
                 </div>
+                
+            </div>
+
+        </section>
+
+        <section class="page-section bg-light" id="teamTattoo">
+            <div class="text-center"> 
+                <h3 class="tattoo-artist-subheading">Tattoo Artists:</h3>
+            </div>
+            <br>
+            <div class="col-lg-4">
                 <div class="row">
-                    <div class="col-lg-8 mx-auto text-center">
-                        <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque,
-                            laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="/img/team/2.jpg" alt="" />
+                        <h4>Valentin Serna</h4>
+                        <p class="text-muted">Tattoo Artist</p>
+                        <a class="btn btn-dark btn-social mx-2" href="https://instagram.com/jorge.crib.cutz?igshid=svwubfz7b7co"><i
+                                class="fab fa-instagram-square"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="https://m.facebook.com/jorge.pinon.965"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-primary" href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
+                            Valentin</a>
+                        <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex
+                            libero, vehicula ut
+                            suscipit ac, congue eget.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                            suscipit ac, congue eget.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                            suscipit ac, congue eget.
+                        </p>
+            
+                    </div>
+                </div>
+            
+                <div class="row">
+                    <div class="team-member">
+                        <img class="mx-auto rounded-circle" src="/img/team/2.jpg" alt="" />
+                        <h4>James</h4>
+                        <p class="text-muted">Tattoo Artist</p>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-instagram-square"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col">
+                        <a class="btn btn-primary" href="https://square.site/book/3R45RZ69001Y5/jorge-pinon-white-city-or">Book with
+                            James</a>
+                        <p class="paragraphs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex
+                            libero, vehicula ut
+                            suscipit ac, congue eget.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                            suscipit ac, congue eget.
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam ex libero, vehicula ut
+                            suscipit ac, congue eget.
+                        </p>
+            
                     </div>
                 </div>
             </div>
@@ -257,7 +324,9 @@
         <footer class="footer py-4">
             <div class="container">
                 <div class="row align-items-center">
-                    <div class="col-lg-4 text-lg-left" style="color: white;">Copyright © All In One Tattoo X Barbershop 2020</div>
+                    <div class="col-lg-4 text-lg-left" style="color: white;">Copyright © All In One Tattoo and Barber
+                    studio
+                        2020</div>
                     <div class="col-lg-4 my-3 my-lg-0">
                         <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
                         <a class="btn btn-dark btn-social mx-2"
