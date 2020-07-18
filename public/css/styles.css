@@ -9925,7 +9925,8 @@ img::-moz-selection {
 #mainNav {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  background-color: transparent;
+  background-color: black;
+  opacity: 50%;
 }
 #mainNav .navbar-toggler {
   padding: 0.75rem;
@@ -9963,8 +9964,9 @@ img::-moz-selection {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border: none;
-    background-color: transparent;
+    background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+    opacity: 50%;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
@@ -9973,6 +9975,9 @@ img::-moz-selection {
   #mainNav .navbar-brand img {
     height: 2rem;
     transition: height 0.3s ease-in-out;
+    z-index: -1;
+    position: relative;
+    
   }
   #mainNav.navbar-shrink {
     padding-top: 1rem;
@@ -9996,11 +10001,11 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10.5rem;
   padding-bottom: 6rem;
-  text-align: center;
+  text-align: left;
   color: var(--red);
   background-image: url("/img/hero_second.jpg");
   background-repeat: no-repeat;
- 
+  background-attachment: scroll;
   background-position: center top;
   background-size: 100% auto;
   
@@ -10010,7 +10015,7 @@ header.masthead {
 text-align: left;
 font-family: cursive;
 font-weight: bold;
-color: var(--blue);
+color: bl;
 font-size: 50px;
 }
 
