@@ -9998,9 +9998,9 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: var(--red);
-  background-image: url("/img/hero.jpg");
+  background-image: url("/img/hero_second.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+ 
   background-position: center top;
   background-size: 100% auto;
   
@@ -10010,7 +10010,7 @@ header.masthead {
 text-align: left;
 font-family: cursive;
 font-weight: bold;
-color: white;
+color: var(--blue);
 font-size: 50px;
 }
 
