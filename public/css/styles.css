@@ -10010,8 +10010,7 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center top;
-  background-size: 100%;
-  
+  background-size: cover;
 }
 
 .brand-font{
@@ -10019,7 +10018,7 @@ text-align: left;
 font-family: cursive;
 font-weight: bold;
 color: white;
-font-size: 50px;
+font-size: 40px;
 }
 
 header.masthead .masthead-subheading {
