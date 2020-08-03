@@ -10051,8 +10051,8 @@ header.masthead .masthead-subheading {
   width: auto;
 }
 .team-member img {
-  width: auto;
-  height: auto;
+  width: 400px;
+  height: 350px;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
 }
 .team-member h4 {
