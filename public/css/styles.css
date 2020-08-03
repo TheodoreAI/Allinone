@@ -4052,8 +4052,6 @@ input[type=button].btn-block {
   flex-basis: 100%;
   flex-grow: 1;
   align-items: center;
-  background-color: black;
-  opacity: 50%;
 }
 
 .navbar-toggler {
@@ -6133,7 +6131,8 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 0% !important;
+  border-radius: 10% !important;
+ 
 }
 
 .rounded-pill {
@@ -10056,6 +10055,7 @@ header.masthead .masthead-subheading {
   width: 400px;
   height: 350px;
   border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  
 }
 .team-member h4 {
   margin-top: 1.5rem;
