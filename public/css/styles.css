@@ -209,6 +209,7 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+  width: auto;
 }
 
 svg {
@@ -10047,6 +10048,7 @@ header.masthead .masthead-subheading {
 .team-member {
   margin-bottom: 3rem;
   text-align: center;
+  width: auto;
 }
 .team-member img {
   width: auto;
