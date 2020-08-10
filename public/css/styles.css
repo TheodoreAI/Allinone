@@ -9921,15 +9921,15 @@ img::-moz-selection {
 }
 
 .btn-xl {
-  padding: 1.25rem 2.5rem;
+  padding: 1.0rem 2.0rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.125rem;
   font-weight: 700;
 }
 
 .btn-social {
-  height: 2.5rem;
-  width: 2.5rem;
+  height: 4rem;
+  width: 4rem;
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10037,6 +10037,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: white;
 font-size: 40px;
 font-weight: 350;
+font-style: italic;
 }
 
 header.masthead .masthead-subheading {
