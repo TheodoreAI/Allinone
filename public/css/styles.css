@@ -4117,6 +4117,7 @@ input[type=button].btn-block {
     display: flex !important;
     flex-basis: auto;
     opacity: 100%;
+    position: absolute;
   }
   .navbar-expand-sm .navbar-toggler {
     display: none;
