@@ -2490,6 +2490,8 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color:var(--blue);
   border-color: #007bff;
+  padding: 1.0rem 2.0rem;
+
 }
 .btn-primary:hover {
   color: #fff;
@@ -6139,7 +6141,7 @@ button.bg-dark:focus {
 }
 
 .rounded-circle {
-  border-radius: 10% !important;
+  border-radius: 5% !important;
  
 }
 
@@ -10068,7 +10070,7 @@ header.masthead .masthead-subheading {
 .team-member img {
   width: 400px;
   height: 350px;
-  border: 0.5rem solid rgba(0, 0, 0, 0.1);
+  border: 1.5rem solid rgba(0, 0, 0, 0.1);
   
 }
 .team-member h4 {
