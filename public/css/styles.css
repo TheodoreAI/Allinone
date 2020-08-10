@@ -4002,6 +4002,9 @@ input[type=button].btn-block {
   padding: 0.5rem 1rem;
   height: auto;
 }
+body {
+  padding-top: 170px;
+}
 .navbar .container,
 .navbar .container-fluid,
 .navbar .container-sm,
