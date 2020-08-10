@@ -9982,7 +9982,7 @@ img::-moz-selection {
     background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     opacity: 50%;
-    position: relative;
+    position: absolute;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
@@ -10025,6 +10025,7 @@ header.masthead {
   background-position: center top;
   background-size: cover;
 }
+
 
 .brand-font{
 text-align: left;
