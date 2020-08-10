@@ -4063,6 +4063,7 @@ input[type=button].btn-block {
   background-color: transparent;
   border: 1px solid transparent;
   border-radius: 0.25rem;
+  position: absolute;
 }
 .navbar-toggler:hover, .navbar-toggler:focus {
   text-decoration: none;
@@ -9939,13 +9940,7 @@ img::-moz-selection {
   opacity: 50%;
 }
 
-.navbar-fixed-top {
-  top: -70px; /* you'll have to figure out the exact number here */
-}
 
-.navbar-fixed-top, .navbar-fixed-bottom {
-  position: relative; /* this can also be static */
-}
 #mainNav .navbar-toggler {
   padding: 0.75rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -9956,6 +9951,7 @@ img::-moz-selection {
   border: 0;
   width: 50px;
   height: 45px;
+  position: relative;
 }
 #mainNav .navbar-brand {
   color: #fed136;
@@ -9985,6 +9981,7 @@ img::-moz-selection {
     background-color: black;
     transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     opacity: 50%;
+    position: relative;
   }
   #mainNav .navbar-brand {
     font-size: 1.5em;
