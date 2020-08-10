@@ -3994,7 +3994,7 @@ input[type=button].btn-block {
 }
 
 .navbar {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
