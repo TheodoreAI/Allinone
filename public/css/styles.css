@@ -9944,6 +9944,7 @@ img::-moz-selection {
   padding-bottom: 1rem;
   background-color: black;
   opacity: 50%;
+  padding: auto;
 }
 
 
