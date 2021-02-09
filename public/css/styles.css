@@ -3282,7 +3282,8 @@ img::-moz-selection {
     padding-bottom: 1rem;
     background-color: #000;
     opacity: 50%;
-    padding: auto
+    padding: auto;
+    height: 150px;
 }
 
 #mainNav .navbar-toggler {
